@@ -4,7 +4,7 @@ var tableData = data;
 // using d3 select tbody, which will be used to append rows and data
 var tbody = d3.select("tbody");
 
-// function that takes an array as InputDeviceInfo, reads each entry in the array and appends row and data into the tbody to get the table created
+// function that takes an array as Input, reads each entry in the array and appends row and data into the tbody to get the table created
 function datadisplay(InputArray) {
     InputArray.forEach(record => {
         var row = tbody.append("tr");
